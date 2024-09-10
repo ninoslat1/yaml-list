@@ -7,4 +7,4 @@ jobs:
       - name: Print repository information
         run: |
           echo "Repository name: ${{ github.event.repository.name }}"
-          echo "Repository owner: ${{ github.event.repository.owner.login }}"
+          echo "Repository owner: ${{ github.event.repository.owner }}"
